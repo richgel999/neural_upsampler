@@ -1,4 +1,6 @@
-# jpegc_up2x: the neural 2x upsampler as a drop-in library
+# jpegc_up2x: the neural 2x upsampler as a drop-in C++ library
+
+Note: this repo isn't JPEG specific; i's part of a larger JPEG focused project.
 
 Four files, no dependencies beyond the standard library and the platform's thread API, no C++
 exceptions or RTTI (it builds with both disabled), no heap allocation of its own (the worker threads' stacks come from the OS), C++17:
