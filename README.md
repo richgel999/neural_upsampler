@@ -1,4 +1,4 @@
-# jpegc_up2x: the neural 2x upsampler as a drop-in C++ library
+# jpegc_up2x: neural 2x upsampling as a drop-in C++ library
 
 Note: this repo isn't JPEG specific; i's part of a larger JPEG focused project.
 
