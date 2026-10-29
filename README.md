@@ -1,6 +1,6 @@
 # neural_upsampler: neural 2x upsampling as a tiny drop-in C++ library
 
-Note: this repo isn't JPEG specific; it's part of a larger JPEG focused project.
+Note: this repo isn't JPEG specific; it's part of a larger JPEG focused project. I'll rename the prefix later.
 
 Four files, no dependencies beyond the standard library and the platform's thread API, no C++
 exceptions or RTTI (it builds with both disabled), no heap allocation of its own (the worker threads' stacks come from the OS), C++17:
